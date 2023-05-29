@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Helmet } from 'react-helmet';
 import ContactForm from 'components/ContactForm';
 import ContactList from 'components/ContactList';
 import { getIsLoading } from 'redux/contacts/selectors';
@@ -19,9 +18,8 @@ const Contacts = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Phonebook</title>
-      </Helmet>
+      <title>Phonebook</title>
+
       <ContactForm />
       <div>{isLoading && <Loader />}</div>
       <Filter />
