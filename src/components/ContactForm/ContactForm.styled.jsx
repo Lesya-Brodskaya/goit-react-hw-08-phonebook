@@ -17,7 +17,6 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  margin-top: 15px;
   margin-top: 30px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -25,6 +24,7 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
+  margin-bottom: 20px;
   padding: 3px;
   width: 150px;
   height: 40px;
