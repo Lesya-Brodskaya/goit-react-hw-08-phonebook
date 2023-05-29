@@ -9,6 +9,7 @@ export const Form = styled.form`
 `;
 
 export const Label = styled.label`
+  margin-top: 20px;
   width: 330px;
   display: flex;
   flex-direction: column;
@@ -24,7 +25,7 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 3px;
   width: 150px;
   height: 40px;
