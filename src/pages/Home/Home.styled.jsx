@@ -7,8 +7,9 @@ export const Container = styled.div`
   justify-content: center;
 `;
 
-export const Title = styled.title`
+export const Title = styled.h1`
   font-weight: 500;
   font-size: 48;
   text-align: center;
+  color: rgb(83, 131, 204);
 `;
